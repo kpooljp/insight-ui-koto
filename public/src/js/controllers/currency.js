@@ -11,6 +11,9 @@ angular.module('insight.currency').controller('CurrencyController',
     };
 
     $rootScope.currency.getConvertion = function(value) {
+
+      return value;
+
       value = value * 1; // Convert to number
 
       if (!isNaN(value) && typeof value !== 'undefined' && value !== null) {
