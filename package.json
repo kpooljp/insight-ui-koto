@@ -1,5 +1,5 @@
 {
-  "name": "insight-ui-zcash",
+  "name": "insight-ui-koto",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the zcash network and build your own services with it.",
   "version": "0.4.0",
   "repository": "git://github.com/kpooljp/insight-ui-zcash.git",
@@ -30,9 +30,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/kpooljp/insight-ui-zcash/issues"
+    "url": "https://github.com/kpooljp/insight-ui-koto/issues"
   },
-  "homepage": "https://github.com/kpooljp/insight-ui-zcash",
+  "homepage": "https://github.com/kpooljp/insight-ui-koto",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -42,7 +42,7 @@
     "bitcore",
     "front-end"
   ],
-  "bitcoreNode": "bitcore-node-zcash",
+  "bitcoreNode": "bitcore-node-koto",
   "dependencies": {
   },
   "devDependencies": {
