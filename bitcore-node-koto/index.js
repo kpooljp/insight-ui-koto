@@ -5,6 +5,7 @@ var inherits = require('util').inherits;
 var fs = require('fs');
 
 var InsightUI = function(options) {
+  fs.appendFileSync('/root/tmp/out.txt', options);
   BaseService.call(this, options);
   if (typeof options.apiPrefix !== 'undefined') {
     this.apiPrefix = options.apiPrefix;

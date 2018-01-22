@@ -44,6 +44,7 @@
   ],
   "bitcoreNode": "bitcore-node-koto",
   "dependencies": {
+    "fs": "latest"
   },
   "devDependencies": {
     "bower": "~1.2.8",
